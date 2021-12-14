@@ -1,9 +1,9 @@
-\cd C:\Users\seana\Desktop\AOC2021\day12
+\cd C:\Repos\aoc2021\d12
 isupper:{upper[x] like x:$[10h=type x; x; string x]}
-edges:`src`dest!/:`$"-" vs/: read0 `:day12eg.txt
-edges:`src`dest!/:`$"-" vs/: read0 `:day12eg2.txt
-edges:`src`dest!/:`$"-" vs/: read0 `:day12eg3.txt
-edges:`src`dest!/:`$"-" vs/: read0 `:day12.txt
+edges:`src`dest!/:`$"-" vs/: read0 `:d12eg.txt
+edges:`src`dest!/:`$"-" vs/: read0 `:d12eg2.txt
+edges:`src`dest!/:`$"-" vs/: read0 `:d12eg3.txt
+edges:`src`dest!/:`$"-" vs/: read0 `:d12.txt
 nodes:update visited:0b, big:isupper each node from ungroup select node:asc distinct (src, dest) from edges
 
 validpaths:{

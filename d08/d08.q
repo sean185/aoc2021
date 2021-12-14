@@ -1,12 +1,12 @@
-\cd C:\Users\seana\Desktop\AOC2021\day8
+\cd C:\Repos\aoc2021\d08
 digits:("abcefg";"cf";"acdeg";"acdfg";"bcdf";"abdfg";"abdefg";"acf";"abcdefg";"abcdfg")
 
 t:" " vs "cdfeb fcadb cdfeb cdbaf"
 t like/: digits
 (count each digits)[1 4 7 8]
 group count each digits
-sum raze {x in 2 4 3 7} each (count'') " " vs/: last each " | " vs/:  read0 `:day8.txt
-read0 `:day8eg.txt
+sum raze {x in 2 4 3 7} each (count'') " " vs/: last each " | " vs/:  read0 `:d08.txt
+read0 `:d08eg.txt
 // part 2
 
 {(2 4 3 7!1 4 7 8)x} each (count'') " " vs/: 
@@ -26,7 +26,7 @@ findmapping:{
     m
  } 
 crunch:{m:(`$asc each " "vs x[0]) findmapping x[0];m ? `$asc each " " vs x[1]}
-sum 10 sv/: crunch each " | " vs/:  read0 `:day8.txt
+sum 10 sv/: crunch each " | " vs/:  read0 `:d08.txt
 
 map:(1110111b;0010010b;1011101b;1011011b;1110100b;1101011b;1101111b;1010010b;1111111b)
 
@@ -39,7 +39,7 @@ map:(1110111b;0010010b;1011101b;1011011b;1110100b;1101011b;1101111b;1010010b;111
     d[m[7] except m[1]]:"a";
     d
     }
-    first first " | " vs/:  read0 `:day8eg.txt
+    first first " | " vs/:  read0 `:d08eg.txt
 \
 1 4 7 8
 a:7-1

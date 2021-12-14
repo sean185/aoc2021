@@ -1,6 +1,6 @@
-\cd C:\Users\seana\Desktop\AOC2021\day11
-t:"J"$''read0 `:day11eg.txt
-t:"J"$''read0 `:day11.txt
+\cd C:\Repos\aoc2021\d11
+t:"J"$''read0 `:d11eg.txt
+t:"J"$''read0 `:d11.txt
 dirs:{x except enlist 0 0} {x cross x } -1 0 1 
 
 / inc all by 1

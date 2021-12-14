@@ -1,6 +1,6 @@
-\cd C:\Users\seana\Desktop\AOC2021\day6
-fish:count each group value first read0`:day6eg.txt
-fish:count each group value first read0`:day6.txt
+\cd C:\Repos\aoc2021\d06
+fish:count each group value first read0`:d06eg.txt
+fish:count each group value first read0`:d06.txt
 t:update num:0^fish[age] from ([] age:-1+til 10)
 fn:{[tab]
     tab:update num:0^next num from tab;

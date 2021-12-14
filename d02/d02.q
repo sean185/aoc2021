@@ -1,6 +1,6 @@
-\cd C:\Users\seana\Desktop\AOC2021\day2
-f:`:day2eg.txt
-f:`:day2.txt
+\cd C:\Repos\aoc2021\d02
+f:`:d02eg.txt
+f:`:d02.txt
 l:{x:" "vs x;(first x[0];"J"$x[1])} each read0 f
 
 // part 1 - 1507611

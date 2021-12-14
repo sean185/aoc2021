@@ -1,7 +1,7 @@
-fn = 'day12eg.txt'
-fn = 'day12eg2.txt'
-fn = 'day12eg3.txt'
-fn = 'day12.txt'
+fn = 'd12eg.txt'
+fn = 'd12eg2.txt'
+fn = 'd12eg3.txt'
+fn = 'd12.txt'
 
 from pprint import pprint
 

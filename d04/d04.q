@@ -1,6 +1,6 @@
-\cd C:\Users\seana\Desktop\AOC2021\day4
-txt:"\n\n" vs "\n" sv read0 `:day4eg.txt
-txt:"\n\n" vs "\n" sv read0 `:day4.txt
+\cd C:\Repos\aoc2021\d04
+txt:"\n\n" vs "\n" sv read0 `:d04eg.txt
+txt:"\n\n" vs "\n" sv read0 `:d04.txt
 seq:"J"$"," vs first txt
 boards:value each ssr[;"  ";1#" "] each  ssr[;1#"\n";1#" "] each 1_txt
 check:{any raze all each null {(x;flip x)}5 5#x}

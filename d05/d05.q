@@ -1,6 +1,6 @@
-\cd C:\Users\seana\Desktop\AOC2021\day5
-v:(value'')" -> " vs/:read0 `:day5eg.txt
-v:(value'')" -> " vs/:read0 `:day5.txt
+\cd C:\Repos\aoc2021\d05
+v:(value'')" -> " vs/:read0 `:d05eg.txt
+v:(value'')" -> " vs/:read0 `:d05.txt
 
 // range function to generate from point (x1,y1) to (x2,y2)
 xyrange:{[p1;p2] u:signum d:p2-p1; f:{x+y}[u;]; (max abs d) f\p1}

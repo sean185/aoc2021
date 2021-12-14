@@ -33,7 +33,7 @@ def part2(data):
     return o2 * co2
 
 if __name__ == '__main__':
-    data = getdata('day3eg.txt')
-    data = getdata('day3.txt')
+    data = getdata('d03eg.txt')
+    data = getdata('d03.txt')
     print(part1(data))
     print(part2(data))

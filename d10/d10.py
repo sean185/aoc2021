@@ -1,5 +1,5 @@
-fn = 'day10eg.txt'
-fn = 'day10.txt'
+fn = 'd10eg.txt'
+fn = 'd10.txt'
 opening = '([{<'
 closing = ')]}>'
 mapping = dict(zip(opening, closing))

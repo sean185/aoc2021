@@ -1,6 +1,6 @@
-\cd C:\Users\seana\Desktop\AOC2021\day14
-template:first txt:read0 `:day14eg.txt
-template:first txt:read0 `:day14.txt
+\cd C:\Repos\aoc2021\d14
+template:first txt:read0 `:d14eg.txt
+template:first txt:read0 `:d14.txt
 strs:{(x[0 1];x[0],last[x],x[1])} each 2_ txt
 
 // part 1 - 2590

@@ -1,6 +1,6 @@
-\cd C:\Users\seana\Desktop\AOC2021\day13
-tmp:"\n\n" vs "\n" sv read0 `:day13eg.txt;
-tmp:"\n\n" vs "\n" sv read0 `:day13.txt;
+\cd C:\Repos\aoc2021\d13
+tmp:"\n\n" vs "\n" sv read0 `:d13eg.txt;
+tmp:"\n\n" vs "\n" sv read0 `:d13.txt;
 tab:`x`y!/:points:value each "\n" vs tmp[0];
 inst:{(`$x[0];"J"$x[1])} each "=" vs/: last each " " vs/: "\n" vs tmp[1];
 

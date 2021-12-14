@@ -1,6 +1,6 @@
-\cd C:\Users\seana\Desktop\AOC2021\day7
-crabs:asc value first read0 `:day7eg.txt
-crabs:value first read0 `:day7.txt
+\cd C:\Repos\aoc2021\d07
+crabs:asc value first read0 `:d07eg.txt
+crabs:value first read0 `:d07.txt
 // part 1 - 348996
 f1:{abs x-y}
 min sum crabs f1\:til max crabs

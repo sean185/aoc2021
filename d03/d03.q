@@ -1,6 +1,6 @@
-\cd C:\Users\seana\Desktop\AOC2021\day3
-f:`:day3eg.txt
-f:`:day3.txt
+\cd C:\Repos\aoc2021\d03
+f:`:d03eg.txt
+f:`:d03.txt
 // part 1 - 3687446
 prd 2 sv/: {(0>x;0<x)} sum -1+2*"1"=read0 f // 2nd try
 

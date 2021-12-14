@@ -1,6 +1,6 @@
 from pprint import pprint 
-fn = 'day8eg.txt'
-fn = 'day8.txt'
+fn = 'd08eg.txt'
+fn = 'd08.txt'
 with open(fn) as f:
     txt = f.read().splitlines()
 

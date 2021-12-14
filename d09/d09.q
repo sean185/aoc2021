@@ -1,8 +1,8 @@
-\cd C:\Users\seana\Desktop\AOC2021\day9
+\cd C:\Repos\aoc2021\d09
 // part 1
 m:(-1 0;1 0;0 -1;0 1)
-g:"J"$''read0 `:day9.txt
-g:"J"$''read0 `:day9eg.txt
+g:"J"$''read0 `:d09.txt
+g:"J"$''read0 `:d09eg.txt
 p:(til x:count g) cross (til y:count first g)
 sum 1+{g[x;y]} ./: p where {l:{g[x;y]} ./: m+\:x; l:l where not null l; all l>g[x[0];x[1]]} each p
 

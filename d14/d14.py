@@ -1,5 +1,5 @@
-fn = 'day14eg.txt'
-fn = 'day14.txt'
+fn = 'd14eg.txt'
+fn = 'd14.txt'
 with open(fn) as f:
     txt = f.read().splitlines()
 

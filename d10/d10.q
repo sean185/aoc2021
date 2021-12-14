@@ -1,6 +1,6 @@
-\cd C:\Users\seana\Desktop\AOC2021\day10
-txt:read0 `:day10.txt
-txt:read0 `:day10eg.txt
+\cd C:\Repos\aoc2021\d10
+txt:read0 `:d10.txt
+txt:read0 `:d10eg.txt
 opening:"<{[("
 closing:">}])"
 pts:closing!reverse 3 57 1197 25137

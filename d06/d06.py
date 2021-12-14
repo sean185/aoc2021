@@ -1,5 +1,5 @@
-fn = 'day6eg.txt'
-fn = 'day6.txt'
+fn = 'd06eg.txt'
+fn = 'd06.txt'
 
 with open(fn) as f:
     fishes = f.read().splitlines()[0].split(',')
