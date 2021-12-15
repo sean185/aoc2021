@@ -1,14 +1,13 @@
-def getdata(fn):
-    d = []
+def readlines(fn):
     with open(fn) as f:
         txt = f.read().splitlines()
-    for l in txt:
-        d.append([int(i) for i in l])
-    return d
+    return txt
 
 def avg(l):
-    n = len(l)
-    return sum(l)/n
+    return sum(l)/len(l)
+
+def lean(l):
+    return 0 < sum([2*x-1 for x in l])
 
 def part1(data):
     d = [avg(x) for x in zip(*data)]
@@ -33,7 +32,10 @@ def part2(data):
     return o2 * co2
 
 if __name__ == '__main__':
-    data = getdata('d03eg.txt')
-    data = getdata('d03.txt')
+    fn = 'd03eg.txt'
+    fn = 'd03.txt'
+    data = []
+    for l in readlines(fn):
+        data.append([int(i) for i in l])
     print(part1(data))
     print(part2(data))
